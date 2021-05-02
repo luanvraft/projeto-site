@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="func.js">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        </script>
+
+    <div class="topnav" id="myTopnav">
+        <a href="index.html" class="active">Inicio</a>
+        <a href="hardware.html">Hardware</a>
+        <a href="software.html">Software</a>
+        <a href="progamaçao.html">Programação</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+    <div class="grid-container">
+        <div class="paralax">
+            <div class="parallax"></div></div>
+
+        </div>
+        <div class="foto1"></div>
+        <div class="texto1"></div>
+        <div class="foto2"></div>
+        <div class="texto2"></div>
+        <div class="paralax2">
+            <div class="parallax2"></div>
+        </div>
+      </div>
+    
+</body>
+</html> 
