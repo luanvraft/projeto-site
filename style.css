@@ -140,6 +140,41 @@ body {
   width: 100%;
   height: auto;
 }
+.conteudo2 {
+  display: table;
+}
+
+.imagem2 {
+  display: table-cell;
+  float: left;
+  
+}
+
+.texto2 {
+  display: table-cell;
+  float: left;
+  width: 400px; ;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+.conteudo3 {
+  display: table;
+}
+
+.imagem3 {
+  display: table-cell;
+  float: left;
+  
+}
+
+.texto3 {
+  display: table-cell;
+  float: left;
+  width: 400px; ;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+
 /*---------- ------------- ----------*/
 
 
