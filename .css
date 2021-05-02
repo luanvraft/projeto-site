@@ -1,0 +1,32 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 4.5fr 2fr 2fr 3fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "Paralax Paralax Paralax Paralax"
+      "foto1 texto1 foto2 texto2"
+      "vid1 texto-vid1 vid2 texto-vid2"
+      "fim-pag fim-pag fim-pag fim-pag";
+  }
+  
+  .Paralax { grid-area: Paralax; }
+  
+  .foto1 { grid-area: foto1; }
+  
+  .texto1 { grid-area: texto1; }
+  
+  .foto2 { grid-area: foto2; }
+  
+  .texto2 { grid-area: texto2; }
+  
+  .vid1 { grid-area: vid1; }
+  
+  .texto-vid1 { grid-area: texto-vid1; }
+  
+  .vid2 { grid-area: vid2; }
+  
+  .texto-vid2 { grid-area: texto-vid2; }
+  
+  .fim-pag { grid-area: fim-pag; }
+  
