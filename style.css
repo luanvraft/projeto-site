@@ -69,43 +69,33 @@ body {
     background-size: cover;
   }
 
-  
+
+
+
   
   .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 4fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 2fr 1fr 1fr 1.5fr;
     gap: 0px 0px;
     grid-template-areas:
       "paralax paralax paralax paralax"
       ". . . ."
-      "foto1 texto1 . ."
       ". . . ."
-      "foto2 texto2 . ."
-      ". . . ."
-      "paralax2 paralax2 paralax2 paralax2"
       "paralax2 paralax2 paralax2 paralax2";
   }
   
   .paralax { grid-area: paralax; }
   
-  .foto1 { grid-area: foto1; }
-  
-  .texto1 { grid-area: texto1; }
-  
-  .foto2 { grid-area: foto2; }
-  
-  .texto2 { grid-area: texto2; }
-  
   .paralax2 { grid-area: paralax2; }
- 
+  
+   
   .parallax2 {
     
     background-image: url("fotos/fimpag.jpg");
   
     
     min-height: 300px; 
-    min-width: 300px;
   
     
     background-attachment: fixed;
